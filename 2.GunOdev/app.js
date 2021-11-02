@@ -33,8 +33,6 @@ PrimeNumber(2,5,8,21,13,3)
 //2.Soru
 console.log("------------Arkadaş Sayılar------------")
 
-// let number1 = 220
-// let number2 = 284
 
 function FriendsNumbers(number1,number2) {
     let toplam1 = 0
@@ -86,22 +84,22 @@ FriendsNumbers(1184,1210)
 
 //3.Soru
 console.log("------------Mükemmel Sayılar------------")
-let Numbers = 1
+let PerfectNumber = 1
 
-while(Numbers < 1000){
+while(PerfectNumber < 1000){
 
     let PNTotal = 0
 
-    for (let i = 1; i < Numbers; i++) {
-        if (Numbers % i == 0) {
+    for (let i = 1; i < PerfectNumber; i++) {
+        if (PerfectNumber % i == 0) {
             PNTotal += i
         }
     }
 
-    if (Numbers == PNTotal) {
-        console.log(Numbers + " Mükemmel Sayıdır")
+    if (PerfectNumber == PNTotal) {
+        console.log(PerfectNumber + " Mükemmel Sayıdır")
     }
-    Numbers++
+    PerfectNumber++
 
 }
 
